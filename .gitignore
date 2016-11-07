@@ -25,3 +25,4 @@ scripts/
 drupal/
 
 provisioning/roles/*
+!provisioning/roles/.gitkeep
