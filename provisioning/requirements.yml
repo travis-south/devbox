@@ -71,3 +71,5 @@
   version: 3.2.0
 - src: geerlingguy.varnish
   version: 1.7.0
+- src: travis-south.samba
+  version: 1.0.0
