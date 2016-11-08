@@ -134,7 +134,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         config_dir: guest_config_dir
       }
       ansible.galaxy_role_file = "#{guest_drupalvm_dir}/provisioning/requirements.yml"
-      ansible.verbose = true
     end
   end
 
