@@ -20,15 +20,15 @@
 - src: geerlingguy.nginx
   version: 1.9.5
 - src: geerlingguy.nodejs
-  version: 3.3.0
+  version: 3.3.1
 - src: geerlingguy.php
-  version: 3.3.3
+  version: 3.4.0
 - src: geerlingguy.php-memcached
   version: 2.0.0
 - src: geerlingguy.php-mysql
   version: 2.0.1
 - src: geerlingguy.php-pecl
-  version: 1.2.1
+  version: 1.3.0
 - src: geerlingguy.php-pgsql
   version: 1.0.0
 - src: geerlingguy.php-redis
@@ -44,11 +44,11 @@
 - src: geerlingguy.postgresql
   version: 1.0.2
 - src: geerlingguy.redis
-  version: 1.2.0
+  version: 1.4.1
 - src: geerlingguy.repo-remi
   version: 1.2.0
 - src: geerlingguy.ruby
-  version: 2.4.0
+  version: 2.4.1
 - src: geerlingguy.security
   version: 1.4.0
 - src: travis-south.samba
