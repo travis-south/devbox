@@ -122,6 +122,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   # Provisioning. Use ansible if it's installed, ansible_local if not or if forced.
   if which('ansible-playbook') && !vconfig['force_ansible_local']
     config.vm.provision 'ansible' do |ansible|
+      ansible.galaxy_role_file = "#{host_drupalvm_dir}/provisioning/requirements.yml"
       ansible.playbook = "#{host_drupalvm_dir}/provisioning/playbook.yml"
       ansible.extra_vars = {
         config_dir: host_config_dir
